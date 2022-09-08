@@ -1,11 +1,14 @@
-#include<stdio.h>
+/*
+ * File: 5-printf.c
+ */
+#include <stdio.h>
 /**
-     * main - Entry point
-     *   
-     * Return: Always 0 (success)
-     */
+ * main - Prints "with proper grammar, but the outcome is
+ *                a piece of art," followed by a new line.
+ *
+ * Return: Always 0.
+ */
 int main(void)
-{
-	printf("with proper grammer, but the outcome is a piece of art,\n");
+{ printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
