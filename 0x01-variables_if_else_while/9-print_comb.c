@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print the case
- * 
+ *
  * description: using the main function
  * Return: 0
  */
