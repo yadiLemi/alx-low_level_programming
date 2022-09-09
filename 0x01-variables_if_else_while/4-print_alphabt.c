@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - print the case
- * 
+ *
  * description: using the main function
  * Return: 0
  */
@@ -11,7 +11,7 @@ char ch;
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 if (ch != 'e' && ch != 'q')
-{	
+{
 putchar(ch);
 }
 }
