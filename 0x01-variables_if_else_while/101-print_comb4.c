@@ -24,7 +24,7 @@ putchar(n3 + 48);
 if (n1 + n2 + n3 !=24)
 {
 putchar(',');
-putchat(' ');
+putchar(' ');
 }
 }
 ++n3;
