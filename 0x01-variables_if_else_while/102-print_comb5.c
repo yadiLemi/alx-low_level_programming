@@ -21,7 +21,7 @@ putchar(' ');
 putchar((n2 / 10) + 48);
 putchar((n1 % 10) + 48);
 if (n1 != 98 || n2 != 98)
-
+{
 putchar(',');
 putchar(' ');
 }
