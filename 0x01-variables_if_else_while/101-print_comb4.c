@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-int n = 0, n2, n3;
+int n1 = 0, n2, n3;
 while (n1 <= 9)
 {
 n2 = 0;
