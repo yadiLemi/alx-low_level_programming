@@ -5,6 +5,7 @@
  *
  * Return: integer
  */
+
 int _atoi(char *s)
 {
 int i;
@@ -28,6 +29,5 @@ else if (brk == 1)
 break;
 }
 res = sig * res;
-
 return (res);
 }
