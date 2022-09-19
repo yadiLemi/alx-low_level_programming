@@ -20,6 +20,7 @@ for (i = len / 2; str[i] != '\0'; i++)
 {
 _putchar(str[i]);
 }
+}
 else
 {
 for (j = (len - 1) / 2; j < len - 1; j++)

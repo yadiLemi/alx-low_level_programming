@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * puts2 - prints every other character
  * @str: type of character
@@ -18,5 +18,6 @@ while (j < i)
 _putchar(str[j]);
 j = j + 2;
 }
+
 _putchar('\n');
 }
