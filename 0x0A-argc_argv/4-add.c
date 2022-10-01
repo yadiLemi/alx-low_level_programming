@@ -20,15 +20,12 @@ for (digit = 0; argv[num][digit]; digit++)
 {
 if (argv[num][digit] < '0' || argv[num][digit] > '9')
 {
-printf("Error\n")
+printf("Error\n");
 return (1);
 }
 }
-
 sum += atoi(argv[num]);
 }
-
 printf("%d\n", sum);
-
 return (0);
 }
