@@ -32,7 +32,7 @@ if (new_dog->owner == NULL)
 {
 free(new_dog->name);
 free(new_dog);
-return (NULL)
+return (NULL);
 }
 new_dog->owner = _strcpy(new_dog->owner, owner);
 new_dog->age = age;
@@ -48,7 +48,6 @@ int _strlen(char *s)
 {
 int a;
 for (a = 0; s[a] != '\0'; a++)
-;
 return (a);
 }
 
@@ -67,7 +66,6 @@ while (src[a] != '\0')
 dest[a] = src[a];
 a++;
 }
-
 dest[a] = '\0';
 return (dest);
 }
